@@ -8,6 +8,7 @@ part of 'toll_pass.dart';
 
 TollPass _$TollPassFromJson(Map<String, dynamic> json) => TollPass(
       id: json['id'] as String,
+      tollId: json['tollId'] as String,
       type: $enumDecode(_$PassTypeEnumMap, json['type']),
       description: json['description'] as String,
       validityPeriod: Duration(microseconds: json['validityPeriod'] as int),
@@ -21,6 +22,7 @@ TollPass _$TollPassFromJson(Map<String, dynamic> json) => TollPass(
 
 Map<String, dynamic> _$TollPassToJson(TollPass instance) => <String, dynamic>{
       'id': instance.id,
+      'tollId': instance.tollId,
       'type': _$PassTypeEnumMap[instance.type]!,
       'description': instance.description,
       'dateIssued': instance.dateIssued.toIso8601String(),

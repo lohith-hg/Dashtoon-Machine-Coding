@@ -48,7 +48,7 @@ Toll toll2 = Toll(
 Vehicle vehicle1 = Vehicle(
   registrationNumber: 'KA01AB1234',
   vehicleType: VehicleType.twoWheeler,
-  currentPass: null, // No active pass
+  currentPass: null, 
 );
 
 Vehicle vehicle2 = Vehicle(
@@ -65,6 +65,7 @@ Vehicle vehicle2 = Vehicle(
       VehicleType.fourWheeler: 60.0,
     },
     vehicleNumber: 'KA01AB1234',
+    tollId: 'toll0011'
   ),
 );
 
@@ -82,6 +83,7 @@ Vehicle vehicle3 = Vehicle(
       VehicleType.fourWheeler: 60.0,
     },
     vehicleNumber: 'KA01AB1234',
+    tollId: 'toll0011'
   ),
 );
 
@@ -98,6 +100,7 @@ TollPass singlePass = TollPass(
     VehicleType.fourWheeler: 60.0,
   },
   vehicleNumber: 'KA01AB1234',
+  tollId: 'toll0011'
 );
 
 TollPass returnPass = TollPass(
@@ -111,6 +114,7 @@ TollPass returnPass = TollPass(
     VehicleType.fourWheeler: 90.0,
   },
   vehicleNumber: 'TN22CD5678',
+  tollId: 'toll0011'
 );
 
 TollPass sevenDayPass = TollPass(
@@ -124,6 +128,7 @@ TollPass sevenDayPass = TollPass(
     VehicleType.fourWheeler: 270.0,
   },
   vehicleNumber: 'MH07EF9012',
+  tollId: 'toll0011'
 );
 
 List<Vehicle> vehicleList = [
@@ -146,6 +151,7 @@ List<Vehicle> vehicleList = [
         VehicleType.fourWheeler: 60.0,
       },
       vehicleNumber: 'KA01AB1234',
+      tollId: 'toll0011'
     ),
   ),
   Vehicle(
@@ -162,6 +168,7 @@ List<Vehicle> vehicleList = [
         VehicleType.fourWheeler: 60.0,
       },
       vehicleNumber: 'KA01AB1234',
+      tollId: 'toll0011',
     ),
   ),
 ];

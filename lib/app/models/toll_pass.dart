@@ -9,6 +9,7 @@ enum PassType { singlePass, returnPass, sevenDayPass }
 @JsonSerializable()
 class TollPass {
   String id;
+  String tollId;
   PassType type;
   String description;
   DateTime dateIssued;
@@ -21,6 +22,7 @@ class TollPass {
 
   TollPass({
     required this.id,
+    required this.tollId,
     required this.type,
     required this.description,
     required this.validityPeriod,
