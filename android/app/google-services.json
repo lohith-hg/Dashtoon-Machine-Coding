@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "813951983835",
+    "project_id": "dashtoon-machine-coding",
+    "storage_bucket": "dashtoon-machine-coding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813951983835:android:8dcdea2523ff4a65e22cfe",
+        "android_client_info": {
+          "package_name": "com.example.dashtoon_machine_coding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ADfgACM2makkGBxwUEbteSKd6XSLf3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
